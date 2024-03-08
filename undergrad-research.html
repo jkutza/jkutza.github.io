@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Telephasic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Joseph Kutza - Undergraduate Research</title>
+		<link rel="icon" type="image/x-icon" href="images/website_logo.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">Main</a></h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+                                    <li><a href="about-me.html">About Me</a></li>
+									<li><a href="undergrad-research.html">Undergraduate Research</a></li>
+									<li class="break"><a href="capstone.html">Capstone Project</a></li>
+									<li><a href="others.html">Other Projects</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper">
+					<div class="container" id="main">
+						<div class="row gtr-150">
+							<div class="col-4 col-12-narrower">
+
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<section>
+											<header>
+												<h3>Klauda Lab</h3>
+											</header>
+											<p>The Klauda Lab, located in the Department of
+											Chemical and Biomolecular Engineering at the
+											University of Maryland, focuses on modeling
+											membranes and membrane-associated 
+											proteins with computational techniques.</p>
+											<ul class="actions">
+												<li><a href="https://terpconnect.umd.edu/~jbklauda/index.html" target="_blank" class="button">Klauda Lab Website</a></li>
+											</ul>
+										</section>
+										<section>
+											<a class="image featured"><img src="images/zaratan_logo.png" width = "10" height = "200" alt="" /></a>
+											<header>
+												<h3>Zaratan and Rockfish</h3>
+											</header>
+											<p>In order to run simulations and store large
+											amounts of data, we used the Zaratan HPC 
+											cluster located on campus. For my first
+										    project, we also used Rockfish with the
+											help of Johns Hopkins University.</p>
+											<ul class="actions">
+												<li><a href="https://hpcc.umd.edu/hpcc/zaratan.html" target="_blank" class="button">Zaratan Website</a></li>
+												<p></p>
+												<a href="https://www.arch.jhu.edu/about-arch/system-configuration/" target="_blank" class="button">Rockfish Website</a>
+											</ul>
+										</section>
+									</section>
+
+							</div>
+							<div class="col-8 col-12-narrower imp-narrower">
+
+								<!-- Content -->
+									<article id="content">
+										<header>
+											<h2>Undergraduate Research</h2>
+										</header>
+										
+										<p> I am currently an undergraduate research assistant in Dr. Jeffery B. Klauda's Laboratory of 
+										Molecular and Thermodynamic Modeling, where I have worked at since 2021. I have been involved
+										in two projects, both of which used molecular dynamics techniques to run simulations of membrane-associated
+										proteins and perform analyses on them. I have used SFTP software to connect to two local supercomputer
+										clusters, Zaratan (formerly known as Deepthought2) at the University of Maryland and Rockfish at
+										Johns Hopkins University. I got experience using PuTTY to make SSH connections to these
+										clusters, run my molecular simulations, and perform analyses by interacting with the terminal. Some
+										software I used to perform other analyses included VMD, MATLAB, Ubuntu, Pymol, and Excel.
+
+										<p>My first project was concerned with modeling a Toll-Like Receptor (TLR) protein-ligand complex, 
+											specifically the binding of various polysaccharides to a TLR10 dimer. TLR proteins are found on the 
+											surface of sentinel cell membranes, and search for foreign substances. While crystal structures of this 
+											protein exist, there had never been a study on the effect of fungal or bacterial polysaccharides on its 
+											binding pocket. Between 2021-2023 I worked with a PhD student and fellow undergraduate student on
+											investigating the conformational changes of the protein that resulted from the binding of different
+											polysaccharides. Although we drafted a paper, the project unfortunately fell through during peer review 
+											after it was discovered that the initial force field and some parameters for the molecular dynamics
+											simulations were off, rendering the results invalid. Nevertheless, I gained valuable experiences working
+											with the Zaratan HPC cluster and performing analyses on my simulation data such as interaction energy per 
+											residue, root-mean-square deviation (RMSD) between the original crystal structure and the simulations,
+											principal components analysis (PCA), and heat map generation. I also learned how to use the VMD and PyMOL
+											software to visualize my systems and view them over time.</p>
+											<p></p>
+											<div class="row">
+												<div class="column">
+													<center><img src="images/tlr_website.png" alt="" style="width:70%"></center>
+												</div>
+												<div class="column">
+													<center><img src="images/rmsd_website.png" alt="" style="width:70%"></center>
+												</div>
+											<div>
+												
+											<div class="column">
+												<center><img src="images/heatmap.png" alt="" style="width:70%"></center>
+											</div>
+											<div class="column">
+												<center><img src="images/arabinoPC.png" alt="" style="width:50%"></center>
+											</div>
+												
+										
+
+										<p>My second and current project involves modeling a magainin (MAG) antimicrobrial peptide, which is found
+											in the African clawed frog (Xenopus laevis). The goal is to understand how MAG might bind to the outer layer
+											membrane of the skin (stratum corneum), and if it has a higher preferences for the stratum corneum or bacterial
+											membranes, which might reduce the ability of MAG to kill bacteria on the skin. I modeled a wild-type MAG peptide,
+											and a rotation student modeled the same peptide but with a point mutation intended to destabalize phenylalanine pi-pi 
+											interactions. Through this project I became familiar with using virtual environments in Linux (Ubuntu) and MATLAB for 
+											selecting and plotting data with various color schemes and resolutions. The project began in 2023 and is still ongoing, 
+											but a preliminary comparsion for the radius of gyration is seen below.
+											<p></p>
+											&nbsp;
+											<a class="image featured"><img src="images/mariadelia_image.png" alt="" /></a>
+										</p>
+									</article>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
